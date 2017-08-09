@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+header{
+	background-color: #212121;
+	color: #E2E2E2;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0px 20px 162px;
+}
+.movie-search{
+	background-color: #151515;
+    color: #4A4A4A;
+    border-radius: 29px;
+    border: 0;
+    font-size: 11px;
+    padding: 9px;
+    width: 205px;
+    float: right;
+    margin-right: 202px;
+}
+
+.movie-search:focus{
+	outline: none;
+	color: #E2E2E2;
+}
+
+.movie-poster{
+	border-style: none;
+    width: 141px;
+    height: 187px;
+    cursor: pointer;
+    border: 5px solid #181818;
+    border-radius: 5px;
+    margin: 108px 0 0 160px;
+}
+
+section{
+	background-color: #0D0D0D;
+}
+.movie-list-section{
+	color: #E2E2E2;
+}
+
+.section-header{
+	background-color: #1B1B1B;
+	width: 100%;
+    height: 220px;
+}
+
+.section-header-no-selection {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 320px;
+    color: #E2E2E2;
+    position: relative;
+}
+.section-header-no-selection p{
+    position: absolute;
+    top: 140px;
+    font-size: 24px;
+    left: 44%;
+}
+    
+.movie-title{
+    margin: -180px 0 0 330px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.movie-release-date{
+    margin: 11px 0 0 330px;
+    color: #959595;
+    font-size: 12px;
+}
+.movie-ratings-list {
+    margin-left: 240px;
+}
+.movie-rating {
+    list-style-type: none;
+    color: #fff;
+    font-size: 10px;
+    display: inline;
+    padding: 0 10px;
+}
+.imdb-movie-rating {
+    margin-left: 41px;
+    display: inline;
+}
+.rating-value {
+    color: #959595;
+    margin-left: 10px;
+}
+.vote-button-wrapper {
+    float: right;
+    margin-right: 233px;
+}
+.vote-button {
+    border: 0;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.vote-button:focus{
+    outline: 0;
+}
+.vote-button.upvote-button {
+    background-color: #2ecc71;
+    margin-right: 11px;
+   
+}
+.vote-button.downvote-button {
+    background-color: #e74c3c;
+   
+}
+.movie-watched-button {
+    float: right;
+    background-color: #00e69d;
+    margin: 25px 225px 0 0;
+    border: none;
+    width: 182px;
+    color: #0C0306;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 11px 29px;
+}
+.movie-watched-button:focus{
+	outline: 0;
+}
+.movie-article{
+    width: 51%;
+    margin: 10px auto;
+}
+
+.movie-article .movie-article-plot{
+	color: #959595;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.movie-article .movie-article-description{
+	color: #ffffff;
+}
+.watched-movie-section{
+	margin-top: -16px;
+}
+
+.watched-movie-section article h6 .movie-viewall-link a{
+	color: #00e69d;
+	font-weight: bold;
+	float: right;
+	font-size: 14px;
+}
+
+.watched-movie-section article h6 .watched-section-title{
+	color: #E9E9E9;
+}
+
+.watched-movie-section article{
+    border-top: 1px solid #1E1E1E;
+    width: 72%;
+    margin: 15px 0 0 160px;
+    padding: 65px 0 40px 0;
+}
+.watched-movie-list{
+	padding: 0;
+	margin: 25px 0 0 0;
+}
+.watched-movie-section ul .watched-list-item{
+	display: inline;
+	margin:0 70px 0 0;
+}
+
+.watched-movie-section ul .last-watched-list-item{
+	display: inline;
+	margin-right: -11px !important;
+}
+
+.watched-movie-image {
+    width: 105px;
+    height: 127px;
+}
+
+
+
