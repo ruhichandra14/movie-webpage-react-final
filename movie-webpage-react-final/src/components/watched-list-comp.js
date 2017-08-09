@@ -16,7 +16,7 @@ export default class WatchedListComponent extends React.Component {
     render() {
         let defaultWatchedList;
         
-        if(this.props.watchedMovie){
+        if(this.props.watchedMovie && this.state.watchedMovieArray.indexOf((this.props.watchedMovie))== -1){
             this.state.watchedMovieArray.push(this.props.watchedMovie);
         }
         defaultWatchedList = this.state.watchedMovieArray.map(movieSrc => <li className = "watched-list-item"><img className = "watched-movie-image" src = {movieSrc} /></li> )
